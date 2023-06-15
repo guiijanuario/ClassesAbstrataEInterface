@@ -3,9 +3,12 @@ package Exercicio1_CA;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Loja {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
         List<Produto> produtos = new ArrayList<>();
 
         produtos.add(new Livro("123456789", "Harry Potter e a Pedra Filosofal", 35.90, "J. K. Rowling"));
@@ -20,9 +23,20 @@ public class Loja {
             System.out.println("[---------------------------------------------------]");
         }
 
-        // Criando duas instâncias idênticas com códigos de barras diferentes
-        Produto produto1 = new Livro("123456789", "Java Programming", 59.99, "John Smith");
 
+        System.out.printf("Digite por favor o código de barras do produto: ");
+        String codigoBarras = sc.next();
+
+        System.out.printf("Digite nome do livro: ");
+        String nomeLivro = sc.next();
+
+        System.out.printf("Digite o preço do livro: ");
+        double precoLivro = sc.nextDouble();
+
+        System.out.printf("Digite o preço do livro: ");
+        String autorLivro = sc.next();
+
+        Produto produto1 = new Livro(codigoBarras, nomeLivro, precoLivro, autorLivro);
 
         for (Produto produto : produtos){
             if (produto.equals(produto1) == true){
