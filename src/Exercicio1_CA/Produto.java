@@ -1,5 +1,7 @@
 package Exercicio1_CA;
 
+import java.util.List;
+
 abstract class Produto {
     private String codigoBarras;
     private String nome;
@@ -44,5 +46,17 @@ abstract class Produto {
         return "Código de Barras: " + getCodigoBarras() + "\n" +
                 "Nome: " + getNome() + "\n" +
                 "Preço: " + getPreco();
+    }
+
+    public static void buscarProduto(List<Produto> produtos, Produto produto) {
+        int index = produtos.indexOf(produto);
+        if (index != -1) {
+            System.out.println("[--------------------------------------------------]");
+            System.out.println(" O produto está na posição " + index + " da lista.");
+            System.out.println(produto.toString());
+            System.out.println("[--------------------------------------------------]");
+        } else {
+            System.out.println("O produto não foi encontrado na lista.");
+        }
     }
 }

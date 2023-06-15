@@ -23,26 +23,36 @@ public class Loja {
             System.out.println("[---------------------------------------------------]");
         }
 
+        System.out.println("\n\n[---------------------------------------------------------------------------]");
+        System.out.println("[Digite agora um código de barras para ver se já temos cadastrado no sistema]");
+        System.out.println("[---------------------------------------------------------------------------]");
 
-        System.out.printf("Digite por favor o código de barras do produto: ");
-        String codigoBarras = sc.next();
+        System.out.printf("\nDigite por favor o código de barras do produto: ");
+        String codigoBarras = sc.nextLine();
 
         System.out.printf("Digite nome do livro: ");
-        String nomeLivro = sc.next();
+        String nomeLivro = sc.nextLine();
 
         System.out.printf("Digite o preço do livro: ");
         double precoLivro = sc.nextDouble();
 
-        System.out.printf("Digite o preço do livro: ");
+        System.out.printf("Digite o autor do livro: ");
         String autorLivro = sc.next();
 
         Produto produto1 = new Livro(codigoBarras, nomeLivro, precoLivro, autorLivro);
 
         for (Produto produto : produtos){
             if (produto.equals(produto1) == true){
+                System.out.println("[--------------------------------------------------------]");
                 System.out.println("Esse código de barras já está cadastrado em nosso sistema com o seguinte produtos: "
                         + produto.equals(produto1) + " " + produto.toString());
+                System.out.println("[--------------------------------------------------------]");
             }
+
         }
+
+        //Exercicio D;
+        Produto.buscarProduto(produtos, produtos.get(1));
+
     }
 }
