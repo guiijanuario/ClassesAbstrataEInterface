@@ -25,10 +25,10 @@ Resumindo, enquanto uma classe abstrata é uma classe parcialmente implementada 
 
 ## 📄 Exercícios
 
-1. [Diagrama 01](https://github.com/guiijanuario/ClassesAbstrataEInterface/blob/main/src/Exercicio1_CA/Loja.java) - (Classe Abstrata) - Loja de Livros, CDs, DVDs.
-2. [Diagrama 02](https://github.com/guiijanuario/ClassesAbstrataEInterface/blob/main/src/Exercicio2_CA/TesteDeForma.java) - (Classe Abstrata) - Forma em Retângulos, círculos e quadrados.
-3. [Diagrama 03](https://github.com/guiijanuario/ClassesAbstrataEInterface/blob/main/src/Exercicio2_CA/TesteDeForma.java) - (Classe Interface) - Fabrica de Lampada.
-4. [Diagrama 04](https://github.com/guiijanuario/ClassesAbstrataEInterface/blob/main/src/Exercicio2_CA/TesteDeForma.java) - (Classe Interface) - Tributação Bancária
+1. [Diagrama 01](https://github.com/guiijanuario/ClassesAbstrataEInterface/blob/main/src/Exercicio1_CA) - (Classe Abstrata) - Loja de Livros, CDs, DVDs.
+2. [Diagrama 02](https://github.com/guiijanuario/ClassesAbstrataEInterface/blob/main/src/Exercicio2_CA) - (Classe Abstrata) - Forma em Retângulos, círculos e quadrados.
+3. [Diagrama 03](https://github.com/guiijanuario/ClassesAbstrataEInterface/tree/main/src/Exercicio1_IN) - (Classe Interface) - Fabrica de Lampada.
+4. [Diagrama 04](https://github.com/guiijanuario/ClassesAbstrataEInterface/tree/main/src/Exercicio2_IN) - (Classe Interface) - Tributação Bancária
 
 
 ## ⏯️ Como executar?
@@ -38,11 +38,11 @@ Resumindo, enquanto uma classe abstrata é uma classe parcialmente implementada 
 - Abra o terminal e navegue até o diretório do programa que você deseja executar;
 - Compile o arquivo executando o comando `javac` no arquivo [Exercícios Classe Abstratas e Interface](https://github.com/guiijanuario/ClassesAbstrataEInterface):
 ```
-javac TesteDeForma.java
+javac TesteDeForma.java (nome da main)
 ```
 - Após compilar, execute o comando `java`, como mostra abaixo:
 ```
-java TesteDeForma.java
+java TesteDeForma.java (nome da main)
 ```
 
 ## 👨‍💻 Autor
