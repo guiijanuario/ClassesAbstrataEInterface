@@ -42,10 +42,10 @@ public class Loja {
         Produto produto1 = new Livro(codigoBarras, nomeLivro, precoLivro, autorLivro);
 
         for (Produto produto : produtos){
-            if (produto.equals(produto1) == true){
+            if (produto.equals(produto1)){
                 System.out.println("[--------------------------------------------------------]");
                 System.out.println("Esse código de barras já está cadastrado em nosso sistema com o seguinte produtos: "
-                        + produto.equals(produto1) + " " + produto.toString());
+                        + produto.equals(produto1) + " " + produto);
                 System.out.println("[--------------------------------------------------------]");
             }
 
