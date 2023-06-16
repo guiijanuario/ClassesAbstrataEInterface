@@ -36,13 +36,13 @@ Resumindo, enquanto uma classe abstrata é uma classe parcialmente implementada 
 - Você precisará ter o [JDK 11](https://www.oracle.com/java/technologies/downloads/#java11) instalado no seu computador;
 - Baixe o repositório do projeto;
 - Abra o terminal e navegue até o diretório do programa que você deseja executar;
-- Compile o arquivo executando o comando `javac` no arquivo [SecretNumber](https://github.com/joaocruzzup/d01-secretnumber/blob/main/src/SecretNumber.java):
+- Compile o arquivo executando o comando `javac` no arquivo [Exercícios Classe Abstratas e Interface](https://github.com/guiijanuario/ClassesAbstrataEInterface):
 ```
-javac SecretNumber.java
+javac TesteDeForma.java
 ```
 - Após compilar, execute o comando `java`, como mostra abaixo:
 ```
-java SecretNumber.java
+java TesteDeForma.java
 ```
 
 ## 👨‍💻 Autor
